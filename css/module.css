@@ -81,7 +81,7 @@
     color: #c6d8e3;
     background: url('../images/icon-sprite.png') no-repeat left -105px;
 }
-.addEntry__button
+.add-entry__button
 {
     float: left;
     width: 43px;
@@ -90,11 +90,11 @@
     margin-left: 10px;
     background: rgba(0, 0, 0, 0) url('../images/icon-sprite.png') no-repeat scroll left 0;
 }
-.activeEntry
+.active-entry
 {
     padding: 10px 2%;
 }
-.activeEntry__title
+.active-entry__title
 {
     font-family: 'proxima_nova_ltsemibold';
     font-weight: normal;
@@ -103,91 +103,82 @@
     color: #939393;
     background: url('../images/icon-sprite.png') no-repeat left -140px;
 }
-.button
-{
-    font-size: 13px;
-    font-size: 16px;
-    padding: 10px 30px;
-    color: #fff;
-    border-radius: 20px;
-    background: #c6d8e3;
-}
-.payTotal
+.total-widget
 {
     font-family: 'proxima_nova_ltsemibold';
     position: relative;
     padding: 20px 0;
     background: #f6f6f6;
 }
-.payTotal__head
+.total-widget__head
 {
     color: #939393;
 }
-.payTotal__head--color
+.total-widget__head--color
 {
     color: #9ab4c1;
 }
-.payTotal__head--period
+.total-widget__head--period
 {
     padding: 2px 0 2px 40px;
     background: rgba(0, 0, 0, 0) url('../images/icon-sprite.png') no-repeat scroll left -247px;
 }
-.activeTable
+.active-table
 {
     font-size: 13px;
     width: 100%;
     border-color: #f4fafd;
 }
-.activeTable__color
+.active-table__color
 {
     color: #9ab4c1;
     background: #f4fafd;
 }
-.activeTable__color th
+.active-table__color th
 {
     padding: 8px 1%;
     border-color: #eff6fa;
 }
-.activeTable td
+.active-table td
 {
     padding: 9px 1% 11px;
     color: #939393;
     border-color: #ededed;
     border-bottom-style: dotted;
 }
-td.activeTable__date
+td.active-table__date
 {
     padding-left: 40px;
 }
-td.is-expand-activeTable__date
+td.is-expand-active-table__date
 {
     padding-left: 40px;
     background: url('../images/icon-sprite.png') no-repeat scroll 0 -176px;
 }
-.activeTable__selected
+.active-table__selected
 {
     background: #f4fafd;
 }
-.activeTable__selected  .activeTable__date
+.active-table__selected  .active-table__date
 {
     background: url('../images/icon-sprite.png') no-repeat scroll 0 -207px;
 }
-td.activeTable__selected__detail
+td.active-table__selected__detail
 {
     padding-left: 40px;
     color: #9ab4c1;
 }
-.activeTable__selected__detail,
-.activeTable__selected__content
+.active-table__selected__detail,
+.active-table__selected__content
 {
     border-right: none;
     border-left: none;
 }
-.activeTable__border
+.active-table__border
 {
     border-bottom: 2px solid #9ab4c1;
 }
-.payTotal__selector
+.total-widget__selector
 {
     font-size: 13px;
     position: absolute;
@@ -198,7 +189,7 @@ td.activeTable__selected__detail
     border: 2px solid #e5ebef;
     background: #fff;
 }
-.payTotal__selector__list
+.total-widget__selector__list
 {
     overflow-y: scroll;
     height: 250px;
@@ -206,23 +197,14 @@ td.activeTable__selected__detail
     padding: 0 5px;
     list-style-type: none;
 }
-.payTotal__selector__list__item
+.total-widget__selector__list__item
 {
     padding: 8px 5px;
     cursor: pointer;
     border-bottom: 1px dotted #d0d0d0;
 }
-.payTotal__selector__list__item:last-child
+.total-widget__selector__list__item:last-child
 {
     border-bottom: none;
 }
-.tip
-{
-    padding: 5px;
-    color: #a0b9c5;
-    border: 1px solid #d0dfe8;
-    -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-            border-radius: 5px;
-    background: #f4fafd;
-}
+

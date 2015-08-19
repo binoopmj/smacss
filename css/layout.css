@@ -1,14 +1,14 @@
-.l-container
+.container
 {
     min-width: 320px;
     max-width: 1120px;
     margin: 0 auto;
 }
-.l-header
+.header
 {
     margin-top: 20px;
 }
-.l-content
+.content
 {
     padding: 30px 3%;
     background: #fff;

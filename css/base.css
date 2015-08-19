@@ -1,13 +1,30 @@
 *{
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 body{
-    background: #f6f6f6;
+  background: #f6f6f6;
+  font-family: 'proxima_nova_rgregular';
 }
 .pure-g [class*=pure-u],
-.pure-g-r [class*=pure-u],
-body{
-    font-family: 'proxima_nova_rgregular';
+.pure-g-r [class*=pure-u]{
+  font-family: 'proxima_nova_rgregular';
+}
+.button{
+  font-size: 13px;
+  font-size: 16px;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 20px;
+  background: #c6d8e3;
+}
+.tip{
+  padding: 5px;
+  color: #a0b9c5;
+  border: 1px solid #d0dfe8;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  background: #f4fafd;
 }
