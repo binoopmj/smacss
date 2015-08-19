@@ -39,7 +39,7 @@
 }
 .header__nav__logout .header__nav__list__item
 {
-    font-size: 13px;
+    font-size: 16px;
     margin: 20px 10% 0;
     padding: 10px 20%;
     color: #fff;
@@ -73,7 +73,7 @@
     padding: 10px 2%;
     background: #f4fafd;
 }
-.entry h3
+.entry__title
 {
     font-weight: normal;
     margin: 0;
@@ -94,7 +94,7 @@
 {
     padding: 10px 2%;
 }
-.activeEntry h3
+.activeEntry__title
 {
     font-family: 'proxima_nova_ltsemibold';
     font-weight: normal;
@@ -111,10 +111,6 @@
     color: #fff;
     border-radius: 20px;
     background: #c6d8e3;
-}
-.payTotal [class*='pure-u']
-{
-    float: left;
 }
 .payTotal
 {
@@ -210,20 +206,15 @@ td.activeTable__selected__detail
     padding: 0 5px;
     list-style-type: none;
 }
-.payTotal__selector__list li
+.payTotal__selector__list__item
 {
     padding: 8px 5px;
     cursor: pointer;
     border-bottom: 1px dotted #d0d0d0;
 }
-.payTotal__selector__list li:last-child
+.payTotal__selector__list__item:last-child
 {
     border-bottom: none;
-}
-.payTotal__selector__list__selected
-{
-    color: #fff;
-    background: #c6d8e3;
 }
 .tip
 {
@@ -234,8 +225,4 @@ td.activeTable__selected__detail
        -moz-border-radius: 5px;
             border-radius: 5px;
     background: #f4fafd;
-}
-.tip--style
-{
-    font-style: italic;
 }

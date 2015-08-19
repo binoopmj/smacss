@@ -7,6 +7,11 @@
 {
     background: url('../images/bg_nav_selected.jpg') no-repeat center bottom;
 }
+.is-selected.payTotal__selector__list__item
+{
+    color: #fff;
+    background: #c6d8e3;
+}
 @media screen and (min-width: 768px)
 {
     .header__logo,
