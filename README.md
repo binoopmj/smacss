@@ -1,0 +1,2 @@
+# smacss
+smacss initial files
