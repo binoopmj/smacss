@@ -3,7 +3,7 @@
 {
     text-align: center;
 }
-.header__nav ul
+.header__nav__listing
 {
     position: relative;
     bottom: -3px;
@@ -14,12 +14,12 @@
     padding: 0;
     list-style: none;
 }
-.header__nav li
+.header__nav__list
 {
     float: left;
     padding-bottom: 17px;
 }
-.header__nav a
+.header__nav__list__item
 {
     font-size: 12px;
     float: left;
@@ -29,15 +29,15 @@
     color: #939393;
     background: url('../images/sprite.png') no-repeat center top;
 }
-.header__nav__employee a
+.header__nav__employee .header__nav__list__item
 {
     background-position: center -60px;
 }
-.header__nav__report a
+.header__nav__report .header__nav__list__item
 {
     background-position: center -120px;
 }
-.header__nav__logout > a
+.header__nav__logout .header__nav__list__item
 {
     font-size: 13px;
     margin: 20px 10% 0;
@@ -81,7 +81,7 @@
     color: #c6d8e3;
     background: url('../images/icon-sprite.png') no-repeat left -105px;
 }
-.addEntry a
+.addEntry__button
 {
     float: left;
     width: 43px;
