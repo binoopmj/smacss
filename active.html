@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CareCHOICES</title>
+        <link rel="stylesheet" href="css/pure-min.css">
+      	<link rel="stylesheet" href="css/style.css">
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/grids-responsive-old-ie-min.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/grids-responsive-min.css">
+        <!--<![endif]-->
+    </head>
+    <body>
+        <div class="l-container">
+        	<header class="pure-g l-header">
+        		<div class="header__logo pure-u-1 pure-u-xl-3-5 pure-u-md-1-2">
+        			<a href="#"><img src="images/logo.jpg" alt=""></a>
+        		</div>
+        		<div class="header__nav pure-u-1 pure-u-xl-2-5 pure-u-md-1-2">
+        			<ul>
+                  <li class="pure-u-lg-1-5 header__nav__time is-selected-header__nav"><a href="">Timesheet</a></li>
+                  <li class="pure-u-lg-1-5 header__nav__employee"><a href="">Employees</a></li>
+                  <li class="pure-u-lg-1-5 header__nav__report"><a href="">Reports</a></li>
+                  <li class="pure-u-lg-2-5 header__nav__logout"><a href="">Logout</a></li>
+              </ul>
+        		</div>
+        	</header>
+            <section class="pure-g l-content">
+                <div class="pure-u-1 welcome">
+                    <h2 class="welcome__head">Welcome, <b>John Wattson</b></h2>
+                    <h6 class="welcome__user">Admin</h6>
+                </div>
+                <div class="entry pure-u-1-4">
+                    <h3>New Timecard Entry</h3>
+                </div>
+                <div class="addEntry pure-u-3-4">
+                    <a href=""></a>
+                </div>
+                <div class="activeEntry pure-u-1-4">
+                    <h3>Active Entries </h3>
+                </div>
+                <div class="payTotal pure-u-3-4">
+                    <div class="pure-u-1-4">
+                      <span class="payTotal__head payTotal__head--period">Pay Period Totals:</span>
+                    </div>
+                    <div class="pure-u-1-4">
+                      <span class="payTotal__head--color">Mileage:</span>
+                      <span class="payTotal__head">562</span>
+                    </div>
+                    <div class="pure-u-1-4">
+                      <span class="payTotal__head--color">Total Time:</span>
+                      <span class="payTotal__head">78</span>
+                    </div>
+                    <div class="pure-u-1-4">
+                      <span class="button">
+                        Select Pay Period
+                      </span>
+                    </div>
+                    <div class="payTotal__selector pure-u-1-4"> 
+                        <ul class="payTotal__selector__list">
+                            <li>06/12/15 - 06/26/15</li>
+                            <li>05/28/15 - 06/11/15</li>
+                            <li>05/14/15 - 05/13/15</li>
+                            <li>05/14/15 - 05/13/15</li>
+                            <li>06/12/15 - 06/26/15</li>
+                            <li>05/28/15 - 06/11/15</li>
+                            <li class="payTotal__selector__list__selected">05/14/15 - 05/13/15</li>
+                            <li>05/14/15 - 05/13/15</li>
+                            <li>06/12/15 - 06/26/15</li>
+                            <li>05/28/15 - 06/11/15</li>
+                            <li>05/14/15 - 05/13/15</li>
+                            <li>05/14/15 - 05/13/15</li>
+                            <li>06/12/15 - 06/26/15</li>
+                            <li>05/28/15 - 06/11/15</li>
+                            <li>05/14/15 - 05/13/15</li>
+                            <li>05/14/15 - 05/13/15</li>
+                        </ul>
+                    </div>
+                </div>
+              <div class="pure-u-1">
+                <table class="activeTable" width="" border="1">
+                  <tr class="activeTable__color">
+                    <th scope="col">Date</th>
+                    <th scope="col">Visit Type</th>
+                    <th scope="col">Level of Care</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Travel Time</th>
+                    <th scope="col">Mileage</th>
+                    <th scope="col">Start Time</th>
+                    <th scope="col">End Time</th>
+                    <th scope="col">Visit Time</th>
+                    <th scope="col">Total Time</th>
+                  </tr>
+                  <tr>
+                    <td class="is-expand-activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr class="activeTable__border">
+                    <td class="is-expand-activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr class="activeTable__selected">
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr class="activeTable__selected">
+                    <td class="activeTable__selected__detail">MR #</td>
+                    <td class="activeTable__selected__content" colspan="9">12345678910</td>
+                  </tr>
+                  <tr class="activeTable__selected">
+                    <td class="activeTable__selected__detail">Patient</td>
+                    <td class="activeTable__selected__content" colspan="9">JON WAT</td>
+                  </tr>
+                  <tr class="activeTable__selected">
+                    <td class="activeTable__selected__detail">Notes:</td>
+                    <td class="activeTable__selected__content" colspan="9">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                  </tr>
+                  <tr>
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr  class="activeTable__border">
+                    <td class="is-expand-activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr class="activeTable__border">
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="is-expand-activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="is-expand-activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr class="activeTable__border">
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="is-expand-activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="is-expand-activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="activeTable__date">01/23/2015</td><td>05 PTO</td><td>A Routine</td><td>Lunch</td><td>1hr</td><td>35</td><td>8:00AM</td><td>5:00PM</td><td>3</td><td>2</td>
+                  </tr>
+                </table>
+              </div>
+            </section>
+        </div>      
+    </body>
+</html>

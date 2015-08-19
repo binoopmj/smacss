@@ -1,0 +1,241 @@
+.header__logo,
+.header__nav
+{
+    text-align: center;
+}
+.header__nav ul
+{
+    position: relative;
+    bottom: -3px;
+    display: inline-block;
+    float: none;
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+.header__nav li
+{
+    float: left;
+    padding-bottom: 17px;
+}
+.header__nav a
+{
+    font-size: 12px;
+    float: left;
+    margin-top: 20px;
+    padding: 30px 7% 0;
+    text-decoration: none;
+    color: #939393;
+    background: url('../images/sprite.png') no-repeat center top;
+}
+.header__nav__employee a
+{
+    background-position: center -60px;
+}
+.header__nav__report a
+{
+    background-position: center -120px;
+}
+.header__nav__logout > a
+{
+    font-size: 13px;
+    margin: 20px 10% 0;
+    padding: 10px 20%;
+    color: #fff;
+    border-radius: 20px;
+    background: #c6d8e3;
+}
+.welcome
+{
+    margin-bottom: 40px;
+    padding: 20px 2%;
+    color: #939393;
+    background: #f6f6f6;
+}
+.welcome__head
+{
+    font-weight: normal;
+    float: left;
+    margin: 0;
+    padding: 7px 0 7px 60px;
+    background: url('../images/icon-sprite.png') no-repeat left -56px;
+}
+.welcome__user
+{
+    font-size: 16px;
+    float: right;
+    margin: 10px 0 0;
+}
+.entry
+{
+    margin-bottom: 35px;
+    padding: 10px 2%;
+    background: #f4fafd;
+}
+.entry h3
+{
+    font-weight: normal;
+    margin: 0;
+    padding: 7px 0 7px 45px;
+    color: #c6d8e3;
+    background: url('../images/icon-sprite.png') no-repeat left -105px;
+}
+.addEntry a
+{
+    float: left;
+    width: 43px;
+    height: 43px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background: rgba(0, 0, 0, 0) url('../images/icon-sprite.png') no-repeat scroll left 0;
+}
+.activeEntry
+{
+    padding: 10px 2%;
+}
+.activeEntry h3
+{
+    font-family: 'proxima_nova_ltsemibold';
+    font-weight: normal;
+    margin: 0;
+    padding: 7px 0 7px 45px;
+    color: #939393;
+    background: url('../images/icon-sprite.png') no-repeat left -140px;
+}
+.button
+{
+    font-size: 13px;
+    font-size: 16px;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 20px;
+    background: #c6d8e3;
+}
+.payTotal [class*='pure-u']
+{
+    float: left;
+}
+.payTotal
+{
+    font-family: 'proxima_nova_ltsemibold';
+    position: relative;
+    padding: 20px 0;
+    background: #f6f6f6;
+}
+.payTotal__head
+{
+    color: #939393;
+}
+.payTotal__head--color
+{
+    color: #9ab4c1;
+}
+.payTotal__head--period
+{
+    padding: 2px 0 2px 40px;
+    background: rgba(0, 0, 0, 0) url('../images/icon-sprite.png') no-repeat scroll left -247px;
+}
+.activeTable
+{
+    font-size: 13px;
+    width: 100%;
+    border-color: #f4fafd;
+}
+.activeTable__color
+{
+    color: #9ab4c1;
+    background: #f4fafd;
+}
+.activeTable__color th
+{
+    padding: 8px 1%;
+    border-color: #eff6fa;
+}
+.activeTable td
+{
+    padding: 9px 1% 11px;
+    color: #939393;
+    border-color: #ededed;
+    border-bottom-style: dotted;
+}
+td.activeTable__date
+{
+    padding-left: 40px;
+}
+td.is-expand-activeTable__date
+{
+    padding-left: 40px;
+    background: url('../images/icon-sprite.png') no-repeat scroll 0 -176px;
+}
+.activeTable__selected
+{
+    background: #f4fafd;
+}
+.activeTable__selected  .activeTable__date
+{
+    background: url('../images/icon-sprite.png') no-repeat scroll 0 -207px;
+}
+td.activeTable__selected__detail
+{
+    padding-left: 40px;
+    color: #9ab4c1;
+}
+.activeTable__selected__detail,
+.activeTable__selected__content
+{
+    border-right: none;
+    border-left: none;
+}
+.activeTable__border
+{
+    border-bottom: 2px solid #9ab4c1;
+}
+.payTotal__selector
+{
+    font-size: 13px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 15px 10px;
+    color: #9a9a9a;
+    border: 2px solid #e5ebef;
+    background: #fff;
+}
+.payTotal__selector__list
+{
+    overflow-y: scroll;
+    height: 250px;
+    margin: 0;
+    padding: 0 5px;
+    list-style-type: none;
+}
+.payTotal__selector__list li
+{
+    padding: 8px 5px;
+    cursor: pointer;
+    border-bottom: 1px dotted #d0d0d0;
+}
+.payTotal__selector__list li:last-child
+{
+    border-bottom: none;
+}
+.payTotal__selector__list__selected
+{
+    color: #fff;
+    background: #c6d8e3;
+}
+.tip
+{
+    padding: 5px;
+    color: #a0b9c5;
+    border: 1px solid #d0dfe8;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    background: #f4fafd;
+}
+.tip--style
+{
+    font-style: italic;
+}

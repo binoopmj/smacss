@@ -1,0 +1,15 @@
+.l-container
+{
+    min-width: 320px;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.l-header
+{
+    margin-top: 20px;
+}
+.l-content
+{
+    padding: 30px 3%;
+    background: #fff;
+}

@@ -1,0 +1,13 @@
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+body{
+    background: #f6f6f6;
+}
+.pure-g [class*=pure-u],
+.pure-g-r [class*=pure-u],
+body{
+    font-family: 'proxima_nova_rgregular';
+}
